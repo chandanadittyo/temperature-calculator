@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./TemperatureInput.css";
 
 const TemperatureInput = (props) => {
   const { parameter, onTemperatureChange, temperature } = props;
