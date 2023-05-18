@@ -1,4 +1,5 @@
 import React from "react";
+import "./BoilingVerdicts.css";
 
 const BoilingVerdicts = ({ celsius }) => {
   if (celsius >= 100) {

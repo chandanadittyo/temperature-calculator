@@ -1,6 +1,9 @@
 .fullBody {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 900px;
 }
 
 .upperBody {
@@ -8,4 +11,5 @@
   margin: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
